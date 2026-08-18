@@ -21,7 +21,6 @@ DATA_MOUNT_PATH = Path("/data")
 CHECKPOINT_MOUNT_PATH = Path("/checkpoints")
 REPORT_MOUNT_PATH = Path("/reports")
 BUILD_MOUNT_PATH = Path("/build_artifacts")
-TOKENIZER_SOURCE_PATH = PROJECT_MOUNT_PATH / "tokenizer.vocab"
 
 IGNORE_PATTERNS = [
     ".git",
@@ -551,36 +550,21 @@ def _count_nonempty_lines(path: Path) -> int:
     return count
 
 
-def _upload_tokenizer_to_checkpoint() -> Dict[str, Any]:
-    if not TOKENIZER_SOURCE_PATH.is_file():
-        raise FileNotFoundError(f"A tokenizer forrásfájlja nem található: {TOKENIZER_SOURCE_PATH}")
-    source_size = TOKENIZER_SOURCE_PATH.stat().st_size
-    if source_size <= 0:
-        raise RuntimeError(f"A tokenizer forrásfájlja üres: {TOKENIZER_SOURCE_PATH}")
-
-    destination = Path(CHECKPOINT_PATH)
-    destination.parent.mkdir(parents=True, exist_ok=True)
-    temporary_destination = destination.with_name(destination.name + ".uploading")
-    _safe_unlink(temporary_destination)
-
-    try:
-        with TOKENIZER_SOURCE_PATH.open("rb") as source, temporary_destination.open("wb") as target:
-            shutil.copyfileobj(source, target, length=1024 * 1024)
-            target.flush()
-            os.fsync(target.fileno())
-        if temporary_destination.stat().st_size != source_size:
-            raise IOError(
-                f"A tokenizer feltöltése hiányos: forrás={source_size} cél={temporary_destination.stat().st_size}"
-            )
-        os.replace(temporary_destination, destination)
-    except BaseException:
-        _safe_unlink(temporary_destination)
-        raise
+def _ensure_tokenizer_in_checkpoint() -> Dict[str, Any]:
+    checkpoint_path = Path(CHECKPOINT_PATH)
+    if not checkpoint_path.is_file():
+        raise FileNotFoundError(
+            "A tokenizer nem található a Modal checkpoint kötetben: "
+            f"{checkpoint_path}. A benchmark nem tölt fel lokális tokenizer-fájlt."
+        )
+    size = checkpoint_path.stat().st_size
+    if size <= 0:
+        raise RuntimeError(f"A Modal checkpoint kötetben lévő tokenizer üres: {checkpoint_path}")
 
     return {
-        "source_path": str(TOKENIZER_SOURCE_PATH),
-        "destination_path": str(destination),
-        "bytes": source_size,
+        "destination_path": str(checkpoint_path),
+        "bytes": size,
+        "reused": True,
     }
 
 
@@ -736,12 +720,11 @@ def prepare_cpu(run_id: int) -> Dict[str, Any]:
     _log(f"CPU ELŐKÉSZÍTÉSI FÁZIS run_id={run_id}")
     _log("=" * 70)
 
-    tokenizer_upload = _upload_tokenizer_to_checkpoint()
-    result["tokenizer_upload"] = tokenizer_upload
-    checkpoint_volume.commit()
+    tokenizer_checkpoint = _ensure_tokenizer_in_checkpoint()
+    result["tokenizer_checkpoint"] = tokenizer_checkpoint
     _log(
-        f"Tokenizer feltöltve a Modal checkpoint kötetbe: {tokenizer_upload['destination_path']} "
-        f"({tokenizer_upload['bytes']} bájt)"
+        f"Modal checkpoint tokenizer használata: {tokenizer_checkpoint['destination_path']} "
+        f"({tokenizer_checkpoint['bytes']} bájt, meglévő fájl)"
     )
 
     dataset_path = Path(DATASET_PATH)
