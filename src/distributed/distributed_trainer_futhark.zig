@@ -2604,13 +2604,13 @@ pub const DistributedTrainerFuthark = struct {
             );
         }
 
-        var loaded_target_source: ?accel.EmbeddingAccelerator = null;
+        var loaded_target_source: ?accel.FrozenEmbedding = null;
         var loaded_target_source_committed = false;
         errdefer if (!loaded_target_source_committed) {
             if (loaded_target_source) |*source| source.deinit();
         };
         if (pending_target_master) |master| {
-            loaded_target_source = try accel.EmbeddingAccelerator.initWithMasterWeights(
+            loaded_target_source = try accel.FrozenEmbedding.initFromMasterWeights(
                 &new_accelerator_ptr.ctx,
                 self.allocator,
                 pending_target_vocab,
