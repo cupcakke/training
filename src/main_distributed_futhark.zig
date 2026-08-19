@@ -63,10 +63,11 @@ fn appendDatasetRange(
     var stream = buffered_reader.reader();
     var valid_index: usize = 0;
     var appended: usize = 0;
+    var arena = core_memory.ArenaAllocator.init(allocator, 64 * 1024);
+    defer arena.deinit();
 
     while (true) {
-        var arena = core_memory.ArenaAllocator.init(allocator, 64 * 1024);
-        defer arena.deinit();
+        arena.reset();
 
         const maybe_line = try stream.readUntilDelimiterOrEofAlloc(
             arena.allocator(),
@@ -89,6 +90,12 @@ fn appendDatasetRange(
             }
 
             valid_index = try std.math.add(usize, valid_index, 1);
+            if (valid_index % 10000 == 0) {
+                std.debug.print(
+                    "[Dataset] parsed_valid_records={d} selected_records={d}\n",
+                    .{ valid_index, appended },
+                );
+            }
         }
     }
 
@@ -167,10 +174,11 @@ fn loadDataset(
 
         var buffered_reader = std.io.bufferedReader(count_file.reader());
         var stream = buffered_reader.reader();
+        var arena = core_memory.ArenaAllocator.init(allocator, 64 * 1024);
+        defer arena.deinit();
 
         while (true) {
-            var arena = core_memory.ArenaAllocator.init(allocator, 64 * 1024);
-            defer arena.deinit();
+            arena.reset();
 
             const maybe_line = try stream.readUntilDelimiterOrEofAlloc(
                 arena.allocator(),
@@ -269,9 +277,10 @@ fn loadDatasetHashes(
     var seen = std.AutoHashMap(u64, void).init(allocator);
     defer seen.deinit();
     var valid_count: usize = 0;
+    var arena = core_memory.ArenaAllocator.init(allocator, 64 * 1024);
+    defer arena.deinit();
     while (maximum == 0 or valid_count < maximum) {
-        var arena = core_memory.ArenaAllocator.init(allocator, 64 * 1024);
-        defer arena.deinit();
+        arena.reset();
         const line = try stream.readUntilDelimiterOrEofAlloc(arena.allocator(), '\n', max_line_size) orelse break;
         const text = try extractDatasetText(&arena, line) orelse continue;
         valid_count = try std.math.add(usize, valid_count, 1);
@@ -305,9 +314,11 @@ fn loadTokenizerDataset(
         samples.deinit();
     }
 
+    var arena = core_memory.ArenaAllocator.init(allocator, 64 * 1024);
+    defer arena.deinit();
+
     while (true) {
-        var arena = core_memory.ArenaAllocator.init(allocator, 64 * 1024);
-        defer arena.deinit();
+        arena.reset();
 
         const maybe_line = try stream.readUntilDelimiterOrEofAlloc(
             arena.allocator(),

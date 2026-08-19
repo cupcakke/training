@@ -182,6 +182,15 @@ pub const ArenaAllocator = struct {
         self.secure_zero = enable;
     }
 
+    pub fn reset(self: *ArenaAllocator) void {
+        self.mutex.lock();
+        defer self.mutex.unlock();
+        if (self.secure_zero and self.current_buffer.len > 0 and self.pos > 0) {
+            secureZeroMemory(self.current_buffer.ptr, self.pos);
+        }
+        self.pos = 0;
+    }
+
     pub fn deinit(self: *ArenaAllocator) void {
         self.mutex.lock();
         defer self.mutex.unlock();

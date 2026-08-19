@@ -1,0 +1,1021 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+[?25l[34m⠋[0m Initializing...[2K[32m✓[0m Initialized. [38;5;249mView run at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m
+[34m⠋[0m Initializing...[2K[34m⠋[0m Initializing...
+[?25h[1A[2K[?25l[34m⠋[0m Creating objects...[2K[34m⠸[0m Creating objects...
+[38;5;244m├── [0m[34m⠋[0m
+[38;5;244m└── [0m[34m⠋[0m[2K[1A[2K[1A[2K[34m⠦[0m Creating objects...
+[38;5;244m├── [0m🔨 Created mount /home/runner/workspace/scripts/modal_status_bench.py
+[38;5;244m└── [0m[34m⠸[0m Creating mount /home/runner/workspace: Uploaded 63/64 missing files[2K[1A[2K[1A[2K[34m⠏[0m Creating objects...
+[38;5;244m├── [0m🔨 Created mount /home/runner/workspace/scripts/modal_status_bench.py
+[38;5;244m└── [0m[34m⠦[0m Creating mount /home/runner/workspace: Uploaded 104/106 missing files[2K[1A[2K[1A[2K[34m⠹[0m Creating objects...
+[38;5;244m├── [0m🔨 Created mount /home/runner/workspace/scripts/modal_status_bench.py
+[38;5;244m└── [0m[34m⠏[0m Creating mount /home/runner/workspace: Uploaded 104/106 missing files[2K[1A[2K[1A[2K[34m⠴[0m Creating objects...
+[38;5;244m├── [0m🔨 Created mount /home/runner/workspace/scripts/modal_status_bench.py
+[38;5;244m└── [0m[34m⠹[0m Creating mount /home/runner/workspace: Finalizing index of 106 files[2K[1A[2K[1A[2K[34m⠇[0m Creating objects...
+[38;5;244m├── [0m🔨 Created mount /home/runner/workspace/scripts/modal_status_bench.py
+[38;5;244m└── [0m[34m⠴[0m Creating mount /home/runner/workspace: Finalizing index of 106 files[2K[1A[2K[1A[2K[34m⠙[0m Creating objects...
+[38;5;244m├── [0m🔨 Created mount /home/runner/workspace/scripts/modal_status_bench.py
+[38;5;244m└── [0m[34m⠇[0m Creating mount /home/runner/workspace: Finalizing index of 106 files[2K[1A[2K[1A[2K[34m⠴[0m Creating objects...
+[38;5;244m├── [0m🔨 Created mount /home/runner/workspace/scripts/modal_status_bench.py
+[38;5;244m└── [0m[34m⠹[0m Creating mount /home/runner/workspace: Finalizing index of 106 files[2K[1A[2K[1A[2K[34m⠇[0m Creating objects...
+[38;5;244m├── [0m🔨 Created mount /home/runner/workspace/scripts/modal_status_bench.py
+[38;5;244m├── [0m🔨 Created mount /home/runner/workspace
+[38;5;244m├── [0m[34m⠋[0m Creating function prepare_cpu...
+[38;5;244m└── [0m[34m⠋[0m Creating function run_gpu_train_and_infer...[2K[1A[2K[1A[2K[1A[2K[1A[2K[34m⠋[0m Creating objects...
+[38;5;244m├── [0m🔨 Created mount /home/runner/workspace/scripts/modal_status_bench.py
+[38;5;244m├── [0m🔨 Created mount /home/runner/workspace
+[38;5;244m├── [0m🔨 Created function prepare_cpu.
+[38;5;244m└── [0m🔨 Created function run_gpu_train_and_infer.
+[?25h[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[32m✓[0m Created objects.
+[38;5;244m├── [0m🔨 Created mount /home/runner/workspace/scripts/modal_status_bench.py
+[38;5;244m├── [0m🔨 Created mount /home/runner/workspace
+[38;5;244m├── [0m🔨 Created function prepare_cpu.
+[38;5;244m└── [0m🔨 Created function run_gpu_train_and_infer.
+[?25l[34m⠋[0m Running app...[2K[bench] Futtatás indítása run_id=1787063086
+[34m⠋[0m Running app...[2K[bench] 1. LÉPÉS: CPU előkészítés ellenőrzése / futtatása
+[34m⠋[0m Running app...[2K[34m⠸[0m Running app...[2K[34m⠦[0m Running app...[2K[34m⠏[0m Running app...[2K[34m⠹[0m Running app...[2K[34m⠴[0m Running app...[2K[34m⠇[0m Running app...[2K[34m⠙[0m Running app...[2K[34m⠴[0m Running app...[2K[34m⠇[0m [34mWorker assigned...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mWorker assigned...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mWorker assigned...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mLoading images (1 containers initializing)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mLoading images (1 containers initializing)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mLoading images (1 containers initializing)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mLoading images (1 containers initializing)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mLoading images (1 containers initializing)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] ======================================================================[0m
+[34m[bench] CPU ELŐKÉSZÍTÉSI FÁZIS run_id=1787063086[0m
+[34m[bench] ======================================================================[0m
+[34m⠦[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m[bench] Modal checkpoint tokenizer használata: /checkpoints/tokenizer.vocab (2515796 bájt, meglévő fájl)[0m
+[34m⠦[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠇[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] >>> zig version  (munkakönyvtár=/workspace/jaide)[0m
+[34m⠇[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m0.14.1[0m
+[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] <<< kilépési kód=0  időtartam=0.07s[0m
+[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] >>> futhark --version  (munkakönyvtár=/workspace/jaide)[0m
+[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34mFuthark 0.26.4.[0m
+[34mgit: 0c62b8520d273f397cd6d9e1602dc9877a3119e9[0m
+[34mCompiled with GHC 9.10.3.[0m
+
+[34mCopyright (C) DIKU, University of Copenhagen, released under the ISC license.[0m
+[34mThis is free software: you are free to change and redistribute it.[0m
+[34mThere is NO WARRANTY, to the extent permitted by law.[0m
+[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] <<< kilépési kód=0  időtartam=0.07s[0m
+[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] Futhark csomagok szinkronizálása[0m
+[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] >>> futhark pkg sync  (munkakönyvtár=/workspace/jaide/src/hw/accel)[0m
+[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] <<< kilépési kód=0  időtartam=3.50s[0m
+[34m⠴[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠴[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] Futhark CPU könyvtár fordítása[0m
+[34m⠴[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠴[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] >>> futhark c --library /workspace/jaide/src/hw/accel/futhark_kernels.fut -o /workspace/jaide/src/hw/accel/futhark_kernels  (munkakönyvtár=/workspace/jaide)[0m
+[34m⠴[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] <<< kilépési kód=0  időtartam=3.57s[0m
+[34m⠇[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠇[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] Futhark CUDA könyvtár fordítása[0m
+[34m⠇[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] >>> futhark cuda --library /workspace/jaide/src/hw/accel/main.fut -o /workspace/jaide/src/hw/accel/main_gpu  (munkakönyvtár=/workspace/jaide)[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] <<< kilépési kód=0  időtartam=4.79s[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] ======================================================================[0m
+[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] B FÁZIS: GPU célú fordítás (-Dgpu=true)[0m
+[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] ======================================================================[0m
+[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] >>> zig build -Dgpu=false -Doptimize=ReleaseSafe -Dskip-futhark=true  (munkakönyvtár=/workspace/jaide)[0m
+[34m⠙[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] <<< kilépési kód=0  időtartam=158.23s[0m
+[34m⠦[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠦[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] >>> zig build distributed-futhark -Dgpu=true -Doptimize=ReleaseSafe -Dskip-futhark=true  (munkakönyvtár=/workspace/jaide)[0m
+[34m⠦[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34mdistributed-futhark[0m
+[34m⠇[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m+- install jaide-distributed-futhark[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m   +- zig build-exe jaide-distributed-futhark ReleaseSafe native 1 errors[0m
+[34msrc/distributed/distributed_trainer_futhark.zig:2613:36: error: expected type '?hw.accel.accel_interface.EmbeddingAccelerator', found 'hw.accel.accel_interface.FrozenEmbedding'[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m            loaded_target_source = try accel.FrozenEmbedding.initFromMasterWeights([0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m                                   ^~~[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34msrc/hw/accel/accel_interface.zig:2183:29: note: struct declared here[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34mpub const FrozenEmbedding = struct {[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m                            ^~~~~~[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34msrc/hw/accel/accel_interface.zig:1640:34: note: struct declared here[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34mpub const EmbeddingAccelerator = struct {[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m                                 ^~~~~~[0m
+[34mreferenced by:[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m    main: src/main_distributed_futhark.zig:1466:31[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m    main: /opt/zig-x86_64-linux-0.14.1/lib/std/start.zig:660:37[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m    3 reference(s) hidden; use '-freference-trace=5' to see all references[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34merror: the following command failed with 1 compilation errors:[0m
+[34m/opt/zig-x86_64-linux-0.14.1/zig build-exe -cflags -O2 -- /workspace/jaide/src/hw/accel/main_gpu.c -cflags -O2 -std=c11 -- /workspace/jaide/src/hw/accel/futhark_abi_check.c -lcuda -lcudart -lnvrtc -lcublas -lcublasLt -lnccl -OReleaseSafe -I /workspace/jaide/src/hw/accel -I /usr/local/cuda/include -L /usr/local/cuda/lib64 -L /usr/local/cuda/lib64/stubs --dep build_options --dep core_relational --dep tensor_core_matmul -Mroot=/workspace/jaide/src/main_distributed_futhark.zig -Mbuild_options=/workspace/jaide/.zig-cache/c/3a050205998bda878963bc839159285b/options.zig -OReleaseSafe -Mcore_relational=/workspace/jaide/src/core_relational/mod.zig -OReleaseSafe -Mtensor_core_matmul=/workspace/jaide/src/hw/accel/tensor_core_matmul.zig -lc --cache-dir /workspace/jaide/.zig-cache --global-cache-dir /root/.cache/zig --name jaide-distributed-futhark --zig-lib-dir /opt/zig-x86_64-linux-0.14.1/lib/ --listen=- [0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34mBuild Summary: 1/4 steps succeeded; 1 failed[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34mdistributed-futhark transitive failure[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m+- install jaide-distributed-futhark transitive failure[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m   +- zig build-exe jaide-distributed-futhark ReleaseSafe native 1 errors[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34merror: the following build command failed with exit code 1:[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m/workspace/jaide/.zig-cache/o/5951c23a5fa01e128bb061a5d4b96f7a/build /opt/zig-x86_64-linux-0.14.1/zig /opt/zig-x86_64-linux-0.14.1/lib /workspace/jaide /workspace/jaide/.zig-cache /root/.cache/zig --seed 0x9c2365b7 -Zebb9ee9dff869f63 distributed-futhark -Dgpu=true -Doptimize=ReleaseSafe -Dskip-futhark=true[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] <<< kilépési kód=1  időtartam=33.69s[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] Jelentés elmentve: /reports/run_1787063086/phase_b_gpu_build.log[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] FIGYELMEZTETÉS: a disztributált bináris nem épült fel itt: /workspace/jaide/zig-out/bin/jaide-distributed-futhark[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] ======================================================================[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] C-előkészítő fázis: adathalmaz letöltése (500000 minta)[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m[bench] ======================================================================[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠋[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠸[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠦[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠹[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠴[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠇[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠙[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠼[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠧[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m[bench] Az adathalmaz már létezik: /data/dataset/finephrase_bench.jsonl (500000 sor, 2368657112 bájt)[0m
+[34m⠏[0m[34m [0m[34mRunning (1/1 containers active)...[0m[34m [0m[38;5;249mView app at [0m[4;38;5;249mhttps://modal.com/apps/harshitk[0m[2K
+[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K======================================================================
+[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2KCPU ELŐKÉSZÍTÉS EREDMÉNYE
+[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K======================================================================
+[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K{
+  "run_id": 1787063086,
+  "report_dir": "/reports/run_1787063086",
+  "phases": {
+    "B_gpu_build": {
+      "returncode": 1,
+      "inference_build_returncode": 0,
+      "distributed_build_returncode": 1,
+      "duration_s": 191.92
+    },
+    "C_prep_dataset": {
+      "duration_s": 10.49,
+      "sample_count": 500000,
+      "dataset_bytes": 2368657112,
+      "dataset_path": "/data/dataset/finephrase_bench.jsonl"
+    }
+  },
+  "tokenizer_checkpoint": {
+    "destination_path": "/checkpoints/tokenizer.vocab",
+    "bytes": 2515796,
+    "reused": true
+  },
+  "source_fingerprint": 
+"4d6d1a01a1f0366a40c44e1b558ee8a41d3883ba105ed0950ccb8be7736928d4",
+  "distributed_binary_present": false,
+  "inference_binary_present": true
+[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K}
+[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K
+[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K======================================================================
+[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2KMEGSZAKÍTÁS: a disztributált bináris nem áll rendelkezésre
+[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K======================================================================
+[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m[2K[1A[2K[34m⠏[0m [34mRunning (1/1 containers active)...[0m [38;5;249mView app at [0m
+[4;38;5;249mhttps://modal.com/apps/harshitkashyap534/main/ap-MfeEfW3msl9dBjlo1fYoSb[0m
+[?25h[1A[2K[1A[2K[34m[bench] ======================================================================[0m
+[34m[bench] CPU ELŐKÉSZÍTÉSI FÁZIS BEFEJEZŐDÖTT[0m
+[34m[bench] ======================================================================[0m
+[31m╭─[0m[31m────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────[0m[31m─╮[0m
+[31m│[0m [2m/home/runner/workspace/scripts/[0m[1mmodal_status_bench.py[0m:1603 in main            [31m│[0m
+[31m│[0m                                                                              [31m│[0m
+[31m│[0m   [2m1602 [0m[2m│   │   │   [0m[96mprint[0m([33m"[0m[33m=[0m[33m"[0m * [94m70[0m)                                           [31m│[0m
+[31m│[0m [31m❱ [0m1603 [2m│   │   │   [0m[94mraise[0m [96mRuntimeError[0m([33m"[0m[33mA disztributált bináris nem épült fel[0m [31m│[0m
+[31m│[0m   [2m1604 [0m                                                                      [31m│[0m
+[31m╰──────────────────────────────────────────────────────────────────────────────╯[0m
+[1;91mRuntimeError: [0mA disztributált bináris nem épült fel és meglévő verzió sem 
+található

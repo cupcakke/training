@@ -19,6 +19,7 @@ pub const MGT = struct {
     next_token_id: u32,
     language: Language,
     max_vocab_size: ?u32,
+    allow_dynamic_tokens: bool,
     sorted_prefix_keys: std.ArrayList([]const u8),
     sorted_suffix_keys: std.ArrayList([]const u8),
     max_prefix_len: usize,
@@ -135,6 +136,7 @@ pub const MGT = struct {
             .next_token_id = 0,
             .language = language,
             .max_vocab_size = max_vocab_size,
+            .allow_dynamic_tokens = true,
             .sorted_prefix_keys = std.ArrayList([]const u8).init(allocator),
             .sorted_suffix_keys = std.ArrayList([]const u8).init(allocator),
             .max_prefix_len = 0,
@@ -536,6 +538,7 @@ pub const MGT = struct {
 
     fn addByteToken(self: *MGT, byte: u8) !u32 {
         if (self.byte_token_ids[byte]) |existing| return existing;
+        if (!self.allow_dynamic_tokens) return SPECIAL_TOKENS.UNK;
 
         var buffer: [16]u8 = undefined;
         const byte_string = try std.fmt.bufPrint(&buffer, "<{x:0>2}>", .{byte});
@@ -1459,6 +1462,7 @@ pub const MGT = struct {
 
         try self.rebuildSortedMorphemes();
         try self.rebuildByteTokenLookup();
+        self.allow_dynamic_tokens = false;
     }
 
     fn rebuildByteTokenLookup(self: *MGT) !void {

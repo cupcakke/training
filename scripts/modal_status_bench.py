@@ -256,6 +256,8 @@ def _find_latest_binary(name: str, fingerprint: Optional[str] = None) -> Optiona
 
 def _classify_training_failure(output: str, timed_out: bool, init_seen: bool) -> str:
     lowered = output.lower()
+    if "vocabularyfull" in lowered:
+        return "vocabulary_full"
     if "memory_admission_rejected" in lowered:
         return "admission_rejected"
     if "device_memory_query_failed" in lowered:
