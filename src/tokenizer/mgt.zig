@@ -12,7 +12,7 @@ pub const MGT = struct {
     prefixes: std.StringHashMap(u32),
     suffixes: std.StringHashMap(u32),
     roots: std.StringHashMap(u32),
-    bpe_pairs: std.StringHashMap(BPEMerge),
+    bpe_pairs: std.AutoHashMap(u64, BPEMerge),
     anchors: std.StringHashMap(u64),
     allocated_strings: std.ArrayList([]u8),
     allocator: Allocator,
@@ -129,7 +129,7 @@ pub const MGT = struct {
             .prefixes = std.StringHashMap(u32).init(allocator),
             .suffixes = std.StringHashMap(u32).init(allocator),
             .roots = std.StringHashMap(u32).init(allocator),
-            .bpe_pairs = std.StringHashMap(BPEMerge).init(allocator),
+            .bpe_pairs = std.AutoHashMap(u64, BPEMerge).init(allocator),
             .anchors = std.StringHashMap(u64).init(allocator),
             .allocated_strings = std.ArrayList([]u8).init(allocator),
             .allocator = allocator,
@@ -323,6 +323,28 @@ pub const MGT = struct {
         return 1;
     }
 
+    pub fn packPairKey(left_id: u32, right_id: u32) u64 {
+        return (@as(u64, left_id) << 32) | @as(u64, right_id);
+    }
+
+    pub fn unpackPairKey(key: u64) struct { left: u32, right: u32 } {
+        return .{
+            .left = @intCast(key >> 32),
+            .right = @truncate(key),
+        };
+    }
+
+    pub fn clipToUtf8Prefix(text: []const u8, max_bytes: usize) []const u8 {
+        if (max_bytes == 0) return text[0..0];
+        if (text.len <= max_bytes) return text;
+        var end = max_bytes;
+        if (end > text.len) end = text.len;
+        while (end > 0 and (text[end] & 0xC0) == 0x80) {
+            end -= 1;
+        }
+        return text[0..end];
+    }
+
     fn safeUtf8SequenceLenAt(text: []const u8, pos: usize) usize {
         if (pos >= text.len) return 0;
 
@@ -356,16 +378,24 @@ pub const MGT = struct {
     }
 
     fn appendBPEOrUnknown(self: *MGT, slice: []const u8, byte_pos: usize, out_tokens: *std.ArrayList(u32), out_anchors: ?*std.ArrayList(usize)) !void {
-        const tokens = try self.encodeBPE(slice);
-        defer self.allocator.free(tokens);
+        const before = out_tokens.items.len;
+        try self.encodeBPEInto(slice, out_tokens);
 
-        if (tokens.len == 0) {
+        if (out_tokens.items.len == before) {
             try self.appendUnknownForSlice(slice, byte_pos, out_tokens, out_anchors);
             return;
         }
 
-        for (tokens) |tid| {
-            try self.emitToken(tid, byte_pos, out_tokens, out_anchors);
+        if (out_anchors) |anchors_out| {
+            var index = before;
+            while (index < out_tokens.items.len) : (index += 1) {
+                const tid = out_tokens.items[index];
+                if (self.id_to_token.get(tid)) |token_str| {
+                    if (self.anchors.contains(token_str)) {
+                        try anchors_out.append(byte_pos);
+                    }
+                }
+            }
         }
     }
 
@@ -448,6 +478,16 @@ pub const MGT = struct {
 
     pub fn encode(self: *MGT, text: []const u8, out_tokens: *std.ArrayList(u32)) !void {
         try self.encodeInternal(text, out_tokens, null);
+    }
+
+    pub fn encodeBounded(self: *MGT, text: []const u8, max_tokens: usize, out_tokens: *std.ArrayList(u32)) !void {
+        if (max_tokens == 0) return;
+        const max_bytes = std.math.mul(usize, max_tokens, 4) catch text.len;
+        const clipped = clipToUtf8Prefix(text, max_bytes);
+        try self.encodeInternal(clipped, out_tokens, null);
+        if (out_tokens.items.len > max_tokens) {
+            out_tokens.shrinkRetainingCapacity(max_tokens);
+        }
     }
 
     fn binarySearchString(sorted: []const []const u8, target: []const u8) bool {
@@ -615,31 +655,28 @@ pub const MGT = struct {
         return self.id_to_token.get(id) orelse return error.InvalidData;
     }
 
-    fn encodeBPE(self: *MGT, text: []const u8) ![]u32 {
-        if (text.len == 0) return self.allocator.alloc(u32, 0);
+    fn encodeBPEInto(self: *MGT, text: []const u8, out_tokens: *std.ArrayList(u32)) !void {
+        if (text.len == 0) return;
 
-        var current = std.ArrayList(u32).init(self.allocator);
-        defer current.deinit();
+        try out_tokens.ensureUnusedCapacity(text.len);
+        const start = out_tokens.items.len;
 
         for (text) |byte| {
             const tid = if (self.byte_token_ids[byte]) |existing|
                 existing
             else
                 try self.addByteToken(byte);
-
-            try current.append(tid);
+            try out_tokens.append(tid);
         }
 
-        var pair_cache = std.StringHashMap(BPEMerge).init(self.allocator);
-        defer {
-            var iterator = pair_cache.iterator();
-            while (iterator.next()) |entry| {
-                self.allocator.free(entry.key_ptr.*);
-            }
-            pair_cache.deinit();
-        }
+        try self.mergeBpeInPlace(out_tokens, start);
+    }
 
-        while (current.items.len > 1) {
+    fn mergeBpeInPlace(self: *MGT, current: *std.ArrayList(u32), start: usize) !void {
+        while (true) {
+            const tokens = current.items[start..];
+            if (tokens.len < 2) return;
+
             var best_priority: u32 = std.math.maxInt(u32);
             var best_left: u32 = 0;
             var best_right: u32 = 0;
@@ -647,38 +684,10 @@ pub const MGT = struct {
             var found = false;
 
             var i: usize = 0;
-            while (i < current.items.len - 1) : (i += 1) {
-                const left_id = current.items[i];
-                const right_id = current.items[i + 1];
-
-                var cache_key_buffer: [64]u8 = undefined;
-                const cache_key = try std.fmt.bufPrint(&cache_key_buffer, "{d}_{d}", .{ left_id, right_id });
-
-                if (pair_cache.get(cache_key)) |merge| {
-                    if (merge.priority < best_priority) {
-                        best_priority = merge.priority;
-                        best_left = left_id;
-                        best_right = right_id;
-                        best_merge_id = merge.token_id;
-                        found = true;
-                    }
-                    continue;
-                }
-
-                const left = self.id_to_token.get(left_id) orelse return error.InvalidData;
-                const right = self.id_to_token.get(right_id) orelse return error.InvalidData;
-                const pair = try std.fmt.allocPrint(self.allocator, "{s}{s}", .{ left, right });
-                defer self.allocator.free(pair);
-
-                const merge = self.bpe_pairs.get(pair) orelse BPEMerge{
-                    .token_id = 0,
-                    .priority = std.math.maxInt(u32),
-                };
-
-                const owned_key = try std.fmt.allocPrint(self.allocator, "{d}_{d}", .{ left_id, right_id });
-                errdefer self.allocator.free(owned_key);
-                try pair_cache.put(owned_key, merge);
-
+            while (i < tokens.len - 1) : (i += 1) {
+                const left_id = tokens[i];
+                const right_id = tokens[i + 1];
+                const merge = self.bpe_pairs.get(packPairKey(left_id, right_id)) orelse continue;
                 if (merge.priority < best_priority) {
                     best_priority = merge.priority;
                     best_left = left_id;
@@ -688,37 +697,37 @@ pub const MGT = struct {
                 }
             }
 
-            if (!found) break;
+            if (!found) return;
 
             var write: usize = 0;
             var read: usize = 0;
-
-            while (read < current.items.len) {
-                if (read < current.items.len - 1 and
-                    current.items[read] == best_left and
-                    current.items[read + 1] == best_right)
+            while (read < tokens.len) {
+                if (read < tokens.len - 1 and
+                    tokens[read] == best_left and
+                    tokens[read + 1] == best_right)
                 {
-                    current.items[write] = best_merge_id;
+                    current.items[start + write] = best_merge_id;
                     write += 1;
                     read += 2;
                 } else {
                     if (write != read) {
-                        current.items[write] = current.items[read];
+                        current.items[start + write] = tokens[read];
                     }
                     write += 1;
                     read += 1;
                 }
             }
 
-            current.shrinkRetainingCapacity(write);
-
-            var clear_iterator = pair_cache.iterator();
-            while (clear_iterator.next()) |entry| {
-                self.allocator.free(entry.key_ptr.*);
-            }
-            pair_cache.clearRetainingCapacity();
+            current.shrinkRetainingCapacity(start + write);
         }
+    }
 
+    fn encodeBPE(self: *MGT, text: []const u8) ![]u32 {
+        if (text.len == 0) return self.allocator.alloc(u32, 0);
+
+        var current = std.ArrayList(u32).init(self.allocator);
+        errdefer current.deinit();
+        try self.encodeBPEInto(text, &current);
         return current.toOwnedSlice();
     }
 
@@ -1007,9 +1016,8 @@ pub const MGT = struct {
 
             const vocabulary_size_before = self.vocabSize();
             const merge_token_id = try self.addToken(merged_text);
-            const canonical = self.id_to_token.get(merge_token_id) orelse return error.InvalidData;
 
-            try self.bpe_pairs.put(canonical, .{
+            try self.bpe_pairs.put(packPairKey(selected.key.first, selected.key.second), .{
                 .token_id = merge_token_id,
                 .priority = merge_priority,
             });
@@ -1118,15 +1126,16 @@ pub const MGT = struct {
                     self.byte_token_ids[entry.value] = null;
                 }
 
-                var bpe_remove = std.ArrayList([]const u8).init(self.allocator);
+                var bpe_remove = std.ArrayList(u64).init(self.allocator);
                 defer bpe_remove.deinit();
 
                 var bpe_iterator = self.bpe_pairs.iterator();
                 while (bpe_iterator.next()) |entry| {
                     const key = entry.key_ptr.*;
                     const merge = entry.value_ptr.*;
+                    const pair = unpackPairKey(key);
 
-                    if (mem.eql(u8, key, allocated_pointer) or merge.token_id == id) {
+                    if (merge.token_id == id or pair.left == id or pair.right == id) {
                         bpe_remove.append(key) catch return;
                     }
                 }
@@ -1287,7 +1296,7 @@ pub const MGT = struct {
         }
 
         const BpeItem = struct {
-            key: []const u8,
+            key: u64,
             merge: BPEMerge,
         };
 
@@ -1296,7 +1305,7 @@ pub const MGT = struct {
                 if (a.merge.priority != b.merge.priority) {
                     return a.merge.priority < b.merge.priority;
                 }
-                return std.mem.lessThan(u8, a.key, b.key);
+                return a.key < b.key;
             }
         };
 
@@ -1315,8 +1324,7 @@ pub const MGT = struct {
         try writer.writeInt(u32, try usizeToU32(bpe_items.items.len), .little);
 
         for (bpe_items.items) |item| {
-            try writer.writeInt(u32, try usizeToU32(item.key.len), .little);
-            try writer.writeAll(item.key);
+            try writer.writeInt(u64, item.key, .little);
             try writer.writeInt(u32, item.merge.token_id, .little);
             try writer.writeInt(u32, item.merge.priority, .little);
         }
@@ -1396,19 +1404,16 @@ pub const MGT = struct {
         var bpe_index: u32 = 0;
 
         while (bpe_index < bpe_count) : (bpe_index += 1) {
-            const key_len = try reader.readInt(u32, .little);
-            const key_buffer = try self.allocator.alloc(u8, @as(usize, key_len));
-            var key_owned = true;
-            errdefer if (key_owned) self.allocator.free(key_buffer);
-
-            try reader.readNoEof(key_buffer);
-
+            const pair_key = try reader.readInt(u64, .little);
             const token_id = try reader.readInt(u32, .little);
             const priority = try reader.readInt(u32, .little);
-            const canonical = try self.getCanonicalTokenForLoad(key_buffer, token_id);
-            key_owned = false;
+            if (!self.id_to_token.contains(token_id)) return error.InvalidData;
+            const pair = unpackPairKey(pair_key);
+            if (!self.id_to_token.contains(pair.left) or !self.id_to_token.contains(pair.right)) {
+                return error.InvalidData;
+            }
 
-            try self.bpe_pairs.put(canonical, .{
+            try self.bpe_pairs.put(pair_key, .{
                 .token_id = token_id,
                 .priority = priority,
             });
@@ -1884,4 +1889,41 @@ test "MGT BPE target vocabulary size" {
 
     try mgt.trainBPE(corpus, 300);
     try testing.expect(mgt.vocabSize() <= 300);
+}
+
+test "MGT encodeBounded clips input and integer BPE keys" {
+    const gpa = testing.allocator;
+    const corpus = &.{
+        "lower",
+        "lowest",
+        "newer",
+        "wider",
+        "lower",
+        "lowest",
+    };
+
+    var mgt = try MGT.init(gpa, &.{}, &.{}, 512, .english);
+    defer mgt.deinit();
+
+    try mgt.trainBPE(corpus, 320);
+    try testing.expect(mgt.bpe_pairs.count() > 0);
+
+    var pair_iterator = mgt.bpe_pairs.iterator();
+    while (pair_iterator.next()) |entry| {
+        const pair = MGT.unpackPairKey(entry.key_ptr.*);
+        try testing.expect(mgt.id_to_token.contains(pair.left));
+        try testing.expect(mgt.id_to_token.contains(pair.right));
+        try testing.expect(mgt.id_to_token.contains(entry.value_ptr.token_id));
+    }
+
+    const long_text = "lower lower lower lower lower lower lower lower lower lower lower lower";
+    var bounded = std.ArrayList(u32).init(gpa);
+    defer bounded.deinit();
+    try mgt.encodeBounded(long_text, 8, &bounded);
+    try testing.expect(bounded.items.len <= 8);
+    try testing.expect(bounded.items.len > 0);
+    try testing.expect(mgt.validateTokens(bounded.items));
+
+    const clipped = MGT.clipToUtf8Prefix(long_text, 12);
+    try testing.expect(clipped.len <= 12);
 }

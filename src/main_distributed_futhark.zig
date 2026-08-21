@@ -46,10 +46,16 @@ fn openDatasetFile(dataset_path: []const u8) !std.fs.File {
     return std.fs.cwd().openFile(dataset_path, .{ .mode = .read_only });
 }
 
+fn datasetCharacterBound(max_seq_len: usize) usize {
+    return std.math.mul(usize, max_seq_len, 4) catch max_seq_len;
+}
+
 fn appendDatasetRange(
     allocator: std.mem.Allocator,
+    sample_arena: *core_memory.ArenaAllocator,
     dataset_path: []const u8,
     max_line_size: usize,
+    max_chars: usize,
     start_valid_index: usize,
     end_valid_index: usize,
     samples: *std.ArrayList([]const u8),
@@ -59,12 +65,13 @@ fn appendDatasetRange(
     const file = try openDatasetFile(dataset_path);
     defer file.close();
 
-    var buffered_reader = std.io.bufferedReader(file.reader());
+    var buffered_reader = std.io.BufferedReader(1024 * 1024, @TypeOf(file.reader())){ .unbuffered_reader = file.reader() };
     var stream = buffered_reader.reader();
     var valid_index: usize = 0;
     var appended: usize = 0;
-    var arena = core_memory.ArenaAllocator.init(allocator, 64 * 1024);
+    var arena = core_memory.ArenaAllocator.init(allocator, 1024 * 1024);
     defer arena.deinit();
+    const sample_allocator = sample_arena.allocator();
 
     while (true) {
         arena.reset();
@@ -81,11 +88,9 @@ fn appendDatasetRange(
         const maybe_text = try extractDatasetText(&arena, line);
         if (maybe_text) |text| {
             if (valid_index >= start_valid_index and valid_index < end_valid_index) {
-                const persistent_text = try allocator.dupe(u8, text);
-                samples.append(persistent_text) catch |err| {
-                    allocator.free(persistent_text);
-                    return err;
-                };
+                const clipped = MGT.clipToUtf8Prefix(text, max_chars);
+                const persistent_text = try sample_allocator.dupe(u8, clipped);
+                try samples.append(persistent_text);
                 appended = try std.math.add(usize, appended, 1);
             }
 
@@ -151,12 +156,16 @@ fn parseOptionalEnvironmentBool(allocator: std.mem.Allocator, name: []const u8) 
 
 fn loadDataset(
     allocator: std.mem.Allocator,
+    sample_arena: *core_memory.ArenaAllocator,
     coordinator: *GPUCoordinator,
     dataset_path: []const u8,
     max_line_size: usize,
+    max_seq_len: usize,
 ) ![][]const u8 {
     if (coordinator.world_size == 0) return error.InvalidWorldSize;
     if (coordinator.rank >= coordinator.world_size) return error.InvalidRank;
+    if (max_seq_len == 0) return error.InvalidEnvironmentValue;
+    const max_chars = datasetCharacterBound(max_seq_len);
 
     const environment_total = try parseOptionalEnvironmentUsize(allocator, "JAIDE_TOTAL_SAMPLES");
     const environment_maximum = try parseOptionalEnvironmentUsize(allocator, "JAIDE_MAX_SAMPLES");
@@ -172,9 +181,9 @@ fn loadDataset(
         const count_file = try openDatasetFile(dataset_path);
         defer count_file.close();
 
-        var buffered_reader = std.io.bufferedReader(count_file.reader());
+        var buffered_reader = std.io.BufferedReader(1024 * 1024, @TypeOf(count_file.reader())){ .unbuffered_reader = count_file.reader() };
         var stream = buffered_reader.reader();
-        var arena = core_memory.ArenaAllocator.init(allocator, 64 * 1024);
+        var arena = core_memory.ArenaAllocator.init(allocator, 1024 * 1024);
         defer arena.deinit();
 
         while (true) {
@@ -221,18 +230,15 @@ fn loadDataset(
     const end_valid_index = try std.math.add(usize, start_valid_index, samples_per_rank);
 
     var samples = std.ArrayList([]const u8).init(allocator);
-    errdefer {
-        for (samples.items) |sample| {
-            allocator.free(sample);
-        }
-        samples.deinit();
-    }
+    errdefer samples.deinit();
 
     try samples.ensureTotalCapacity(samples_per_rank);
     _ = try appendDatasetRange(
         allocator,
+        sample_arena,
         dataset_path,
         max_line_size,
+        max_chars,
         start_valid_index,
         end_valid_index,
         &samples,
@@ -270,7 +276,7 @@ fn loadDatasetHashes(
     const maximum = (try parseOptionalEnvironmentUsize(allocator, "JAIDE_MAX_SAMPLES")) orelse 0;
     const file = try openDatasetFile(dataset_path);
     defer file.close();
-    var buffered_reader = std.io.bufferedReader(file.reader());
+    var buffered_reader = std.io.BufferedReader(1024 * 1024, @TypeOf(file.reader())){ .unbuffered_reader = file.reader() };
     var stream = buffered_reader.reader();
     var hashes = std.ArrayList(u64).init(allocator);
     errdefer hashes.deinit();
@@ -295,26 +301,25 @@ fn loadDatasetHashes(
 
 fn loadTokenizerDataset(
     allocator: std.mem.Allocator,
+    sample_arena: *core_memory.ArenaAllocator,
     dataset_path: []const u8,
     max_line_size: usize,
+    max_seq_len: usize,
 ) ![][]const u8 {
     const maximum_samples = (try parseOptionalEnvironmentUsize(allocator, "JAIDE_MAX_SAMPLES")) orelse 0;
+    if (max_seq_len == 0) return error.InvalidEnvironmentValue;
+    const max_chars = datasetCharacterBound(max_seq_len);
 
     const file = try openDatasetFile(dataset_path);
     defer file.close();
 
-    var buffered_reader = std.io.bufferedReader(file.reader());
+    var buffered_reader = std.io.BufferedReader(1024 * 1024, @TypeOf(file.reader())){ .unbuffered_reader = file.reader() };
     var stream = buffered_reader.reader();
     var samples = std.ArrayList([]const u8).init(allocator);
+    errdefer samples.deinit();
+    const sample_allocator = sample_arena.allocator();
 
-    errdefer {
-        for (samples.items) |sample| {
-            allocator.free(sample);
-        }
-        samples.deinit();
-    }
-
-    var arena = core_memory.ArenaAllocator.init(allocator, 64 * 1024);
+    var arena = core_memory.ArenaAllocator.init(allocator, 1024 * 1024);
     defer arena.deinit();
 
     while (true) {
@@ -329,11 +334,9 @@ fn loadTokenizerDataset(
 
         const maybe_text = try extractDatasetText(&arena, line);
         if (maybe_text) |text| {
-            const persistent_text = try allocator.dupe(u8, text);
-            samples.append(persistent_text) catch |err| {
-                allocator.free(persistent_text);
-                return err;
-            };
+            const clipped = MGT.clipToUtf8Prefix(text, max_chars);
+            const persistent_text = try sample_allocator.dupe(u8, clipped);
+            try samples.append(persistent_text);
 
             if (maximum_samples > 0 and samples.items.len >= maximum_samples) {
                 break;
@@ -963,7 +966,7 @@ pub fn main() !void {
             return error.InvalidConfig;
         }
     else
-        2048;
+        98304;
 
     if (model_dim == 0) {
         return error.InvalidConfig;
@@ -1005,7 +1008,7 @@ pub fn main() !void {
             return error.InvalidConfig;
         }
     else
-        4;
+        16;
 
     if (local_batch_size == 0) {
         return error.InvalidConfig;
@@ -1026,7 +1029,7 @@ pub fn main() !void {
             return error.InvalidConfig;
         }
     else
-        20;
+        1;
 
     const checkpoint_interval_owned: ?[]u8 = std.process.getEnvVarOwned(
         allocator,
@@ -1133,7 +1136,7 @@ pub fn main() !void {
             return error.InvalidConfig;
         }
     else
-        50;
+        1000;
 
     if (relational_pass_interval == 0) {
         return error.InvalidConfig;
@@ -1239,19 +1242,35 @@ pub fn main() !void {
         .{ rank, dataset_path },
     );
 
+    const max_seq_len_string_owned: ?[]u8 = std.process.getEnvVarOwned(
+        allocator,
+        "JAIDE_MAX_SEQ_LEN",
+    ) catch null;
+    defer if (max_seq_len_string_owned) |owned| allocator.free(owned);
+    const max_seq_len: usize = if (max_seq_len_string_owned) |value|
+        std.fmt.parseInt(usize, value, 10) catch |err| {
+            std.debug.print(
+                "[Rank {d}] ERROR: invalid JAIDE_MAX_SEQ_LEN='{s}': {}\n",
+                .{ rank, value, err },
+            );
+            return error.InvalidConfig;
+        }
+    else
+        256;
+    if (max_seq_len == 0) return error.InvalidConfig;
+
     const dataset_started = std.time.nanoTimestamp();
+    var sample_arena = core_memory.ArenaAllocator.init(allocator, 8 * 1024 * 1024);
+    defer sample_arena.deinit();
     const samples = try loadDataset(
         allocator,
+        &sample_arena,
         &coordinator,
         dataset_path,
         10 * 1024 * 1024,
+        max_seq_len,
     );
-    defer {
-        for (samples) |sample| {
-            allocator.free(sample);
-        }
-        allocator.free(samples);
-    }
+    defer allocator.free(samples);
     const dataset_elapsed = std.time.nanoTimestamp() - dataset_started;
     std.debug.print("[Rank {d}] dataset_ms={d} local_samples={d}\n", .{ rank, @divTrunc(dataset_elapsed, std.time.ns_per_ms), samples.len });
 
@@ -1296,20 +1315,19 @@ pub fn main() !void {
 
         if (coordinator.isRoot()) {
             vocabulary_training: {
+                var vocabulary_arena = core_memory.ArenaAllocator.init(allocator, 8 * 1024 * 1024);
+                defer vocabulary_arena.deinit();
                 const vocabulary_samples = loadTokenizerDataset(
                     allocator,
+                    &vocabulary_arena,
                     dataset_path,
                     10 * 1024 * 1024,
+                    max_seq_len,
                 ) catch |err| {
                     vocabulary_error = err;
                     break :vocabulary_training;
                 };
-                defer {
-                    for (vocabulary_samples) |sample| {
-                        allocator.free(sample);
-                    }
-                    allocator.free(vocabulary_samples);
-                }
+                defer allocator.free(vocabulary_samples);
 
                 var temporary_tokenizer = MGT.init(
                     allocator,
@@ -1423,6 +1441,7 @@ pub fn main() !void {
         trainer_config.learning_rate = learning_rate;
         trainer_config.embedding_seed = embedding_seed;
         trainer_config.spectral_iterations = spectral_iterations;
+        trainer_config.init_spectral_iterations = init_spectral_iterations;
         trainer_config.spectral_target_norm = spectral_target_norm;
         trainer_config.spectral_interval = @intCast(spectral_interval);
         trainer_config.clip_min = clip_min;
@@ -1441,6 +1460,8 @@ pub fn main() !void {
         trainer_config.trust_ratio = trust_ratio;
         trainer_config.weight_floor = weight_floor;
         trainer_config.logdet_weight = logdet_weight;
+        trainer_config.default_max_seq_len = max_seq_len;
+        trainer_config.tokenizer_max_merges = vocab_size;
 
         const components = TrainerComponents{
             .tokenizer = tokenizer,

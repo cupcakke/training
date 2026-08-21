@@ -62,15 +62,15 @@ CPU_REQUEST = float(os.environ.get("JAIDE_BENCH_CPU_REQUEST", "32.0"))
 CPU_LIMIT = float(os.environ.get("JAIDE_BENCH_CPU_LIMIT", "32.0"))
 MEMORY_REQUEST_MB = int(os.environ.get("JAIDE_BENCH_MEMORY_REQUEST", "131072"))
 MEMORY_LIMIT_MB = int(os.environ.get("JAIDE_BENCH_MEMORY_LIMIT", "131072"))
-MODEL_DIM = int(os.environ.get("JAIDE_BENCH_MODEL_DIM", "16384"))
-NUM_LAYERS = int(os.environ.get("JAIDE_BENCH_LAYERS", "11"))
-BATCH_SIZE = int(os.environ.get("JAIDE_BENCH_BATCH", "32"))
+MODEL_DIM = int(os.environ.get("JAIDE_BENCH_MODEL_DIM", "98304"))
+NUM_LAYERS = int(os.environ.get("JAIDE_BENCH_LAYERS", "24"))
+BATCH_SIZE = int(os.environ.get("JAIDE_BENCH_BATCH", "16"))
 EPOCHS = int(os.environ.get("JAIDE_BENCH_EPOCHS", "1"))
-SAMPLE_CAP = int(os.environ.get("JAIDE_BENCH_SAMPLE_CAP", "500000"))
+SAMPLE_CAP = int(os.environ.get("JAIDE_BENCH_SAMPLE_CAP", "4000000"))
 MAX_SEQ_LEN = int(os.environ.get("JAIDE_BENCH_MAX_SEQ_LEN", "256"))
 LEARNING_RATE = os.environ.get("JAIDE_BENCH_LR", "0.0003")
 REASONING_CYCLES = int(os.environ.get("JAIDE_BENCH_REASONING_CYCLES", "1"))
-RELATIONAL_PASS_INTERVAL = int(os.environ.get("JAIDE_BENCH_RELATIONAL_PASS_INTERVAL", "10"))
+RELATIONAL_PASS_INTERVAL = int(os.environ.get("JAIDE_BENCH_RELATIONAL_PASS_INTERVAL", "1000"))
 JAIDE_RELATIONAL_FAST = os.environ.get("JAIDE_RELATIONAL_FAST", "1")
 NUM_GPUS = int(os.environ.get("JAIDE_BENCH_NUM_GPUS", str(ALLOCATED_GPU_COUNT)))
 RECONSTRUCTION_ALPHA = os.environ.get("JAIDE_BENCH_RECONSTRUCTION_ALPHA", "0.3")
@@ -128,6 +128,7 @@ SOURCE_FINGERPRINT_PATHS = (
     "src/distributed/checkpoint_envelope.zig",
     "src/distributed/nccl_bindings.zig",
     "src/main_distributed_futhark.zig",
+    "src/tokenizer/mgt.zig",
     "src/api/inference_server.zig",
     "build.zig",
 )
@@ -933,6 +934,9 @@ def run_gpu_train_and_infer(
         "max_seq_len": MAX_SEQ_LEN,
         "learning_rate": LEARNING_RATE,
         "vocab_size": VOCAB_SIZE,
+        "skip_knowledge_graph": SKIP_KNOWLEDGE_GRAPH,
+        "relational_fast": JAIDE_RELATIONAL_FAST,
+        "target_source_frozen": TARGET_SOURCE_FROZEN,
         "spectral_norm_target": SPECTRAL_NORM_TARGET,
         "spectral_power_iterations": SPECTRAL_POWER_ITERATIONS,
         "seed_offset": SEED_OFFSET,
