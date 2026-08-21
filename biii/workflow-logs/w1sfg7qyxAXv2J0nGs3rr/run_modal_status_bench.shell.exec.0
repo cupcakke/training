@@ -1,5 +1,0 @@
-Using CPython 3.11.14 interpreter at: [36m/nix/store/flbj8bq2vznkcwss7sm0ky8rd0k6kar7-python-wrapped-0.1.0/bin/python3[39m
-Removed virtual environment at: [36m.pythonlibs[39m
-Creating virtual environment at: [36m.pythonlibs[39m
-[1m[31merror[39m[0m: Failed to spawn: `modal`
-  [1m[31mCaused by[39m[0m: No such file or directory (os error 2)
