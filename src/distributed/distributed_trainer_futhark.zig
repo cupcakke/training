@@ -165,7 +165,7 @@ pub const TrainerConfig = struct {
     tokenizer_anchors: []const []const u8 = &.{},
     tokenizer_vocabulary_path: ?[]const u8 = null,
     tokenizer_anchors_path: ?[]const u8 = null,
-    tokenizer_max_merges: usize = 50_000,
+    tokenizer_max_merges: usize = 32_000,
     tokenizer_language: ?MGTLanguage = null,
     tokenizer_factory: ?TokenizerFactory = null,
     esso_initial_temperature: f64 = 1.0,
@@ -173,7 +173,8 @@ pub const TrainerConfig = struct {
     esso_max_iterations: usize = 100,
     relational_gpu_rows: usize = 4,
     relational_gpu_columns: usize = 4,
-    relational_pass_interval: usize = 50,
+    relational_pass_interval: usize = 1000,
+    relational_graph_node_cap: usize = 4096,
     reconstruction_alpha: f32 = 0.3,
     phase_a_steps: u64 = 500,
     phase_b_steps: u64 = 2000,
@@ -1382,10 +1383,18 @@ pub const DistributedTrainerFuthark = struct {
         self: *DistributedTrainerFuthark,
         token_lists: []const std.ArrayList(u32),
     ) !void {
+        if (self.config.relational_graph_node_cap == 0) return TrainerError.InvalidRelationalGPUConfiguration;
+        if (self.nsir_graph.nodeCount() >= self.config.relational_graph_node_cap) {
+            try self.nsir_graph.clear();
+        }
+
         var has_tokens = false;
         for (token_lists) |token_list| {
             if (token_list.items.len == 0) continue;
             has_tokens = true;
+            if (self.nsir_graph.nodeCount() >= self.config.relational_graph_node_cap) {
+                try self.nsir_graph.clear();
+            }
             const byte_count = try std.math.mul(usize, token_list.items.len, @sizeOf(u32));
             const le_bytes = try self.allocator.alloc(u8, byte_count);
             defer self.allocator.free(le_bytes);
@@ -1423,6 +1432,10 @@ pub const DistributedTrainerFuthark = struct {
                 _ = try orchestrator.runHierarchicalReasoning(self.config.reasoning_cycles);
             }
         }
+
+        if (self.nsir_graph.nodeCount() >= self.config.relational_graph_node_cap) {
+            try self.nsir_graph.clear();
+        }
     }
 
     const PreparedBatch = struct {
@@ -1455,9 +1468,19 @@ pub const DistributedTrainerFuthark = struct {
             token_lists.deinit();
         }
 
+        const sequence_length = try self.getMaximumSequenceLength();
+        const max_token_count = try std.math.add(usize, sequence_length, 1);
+        const max_chars = std.math.mul(usize, sequence_length, 4) catch sequence_length;
+        try token_lists.ensureTotalCapacity(batch.len);
+
         for (batch) |text| {
             var token_list = std.ArrayList(u32).init(self.allocator);
-            self.tokenizer.encode(text, &token_list) catch |err| {
+            token_list.ensureTotalCapacity(max_token_count) catch |err| {
+                token_list.deinit();
+                return err;
+            };
+            const clipped = MGT.clipToUtf8Prefix(text, max_chars);
+            self.tokenizer.encodeBounded(clipped, max_token_count, &token_list) catch |err| {
                 token_list.deinit();
                 return err;
             };
@@ -1466,9 +1489,6 @@ pub const DistributedTrainerFuthark = struct {
                 return err;
             };
         }
-
-        const sequence_length = try self.getMaximumSequenceLength();
-        const max_token_count = try std.math.add(usize, sequence_length, 1);
         var local_active_samples: u64 = 0;
         var local_token_count: u64 = 0;
         for (token_lists.items) |*list| {
